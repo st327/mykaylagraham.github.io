@@ -1,7 +1,32 @@
 <!DOCTYPE html>
 <html>
+    </head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+}
 
-<head>
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+</style><head>
     <meta charset="utf-8">
     <title>Mykayla Graham</title>
     <link rel="stylesheet" href="styles.css">
@@ -10,12 +35,19 @@
 <body>
     <h1>Mykayla Graham</h1>
     <img src="IMG_1685.jpeg"</img>
-    <p>
-        Hello everyone!! My name is Mykayla Graham and I am a Junior at North Carolina Central University. I am currently majoring in Computer Science with a concentration in Cyber Security. Some of my favorite hobbies are singing, shopping, listening to music, and playing on my iPad.
-    </p>
-    <a href="https://github.com/mykaylagraham">GitHub</a>
-    <br>
-    <a href="https://www.linkedin.com/in/mykayla-graham-230894213">LinkedIn</a>
+ 
+<h2>Vertical Navigation Bar</h2>
+<p>Hello everyone!! My name is Mykayla Graham and I am a Junior at North Carolina Central University. I am currently majoring in Computer Science with a concentration in Cyber Security. Some of my favorite hobbies are singing, shopping, listening to music, and playing on my iPad.</p>
+
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#https://github.com/mykaylagraham">GitHub</a></li>
+  <li><a href="#https://www.linkedin.com/in/mykayla-graham-230894213">LinkedIn</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+
+</body>
+</html>
     
 </body>
 
